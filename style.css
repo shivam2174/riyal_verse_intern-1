@@ -393,13 +393,7 @@ a:hover {
   text-shadow: 0 0 8px rgba(244, 211, 94, 0.6);
 }
 
-/* Logo Hover Spin */
-nav .logo:hover {
-  transform: scale(1.1) rotate(-3deg);
-  color: #f4d35e;
-}
 
-/* CTA Button Glow Effect */
 .cta-btn {
   position: relative;
   overflow: hidden;
@@ -420,30 +414,23 @@ nav .logo:hover {
   box-shadow: 0 0 15px rgba(244, 211, 94, 0.6);
 }
 
-/* Hero Section Zoom on Hover */
-
-
-/* Section Titles Hover Effect */
 .section-title:hover {
   color: #f4d35e;
   transform: scale(1.05);
   letter-spacing: 1.5px;
 }
 
-/* Feature Cards – Hover Lift + Glow */
 .feature-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 12px 24px rgba(0,0,0,0.15);
   border: 2px solid #f4d35e;
 }
 
-/* Workshop Cards – Smooth Glow */
 .workshop-card:hover {
   transform: translateY(-10px) scale(1.01);
   box-shadow: 0 10px 20px rgba(244, 211, 94, 0.4);
 }
 
-/* Workshop Buttons – Ripple Effect */
 .workshop-card .btn {
   position: relative;
   overflow: hidden;
@@ -464,7 +451,6 @@ nav .logo:hover {
   transition: width 0.5s ease, height 0.5s ease, opacity 0.8s;
 }
 
-/* Testimonials – Floating Animation */
 .testimonial-card {
   transition: transform 0.4s ease-in-out;
 }
@@ -473,7 +459,6 @@ nav .logo:hover {
   box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
 
-/* Blog Cards – Gradient Overlay on Hover */
 .blog-card {
   position: relative;
   overflow: hidden;
@@ -490,16 +475,13 @@ nav .logo:hover {
   transition: opacity 0.4s ease-in-out;
 }
 
-/* Footer Links – Bounce on Hover */
 footer a:hover {
   color: #f4d35e;
   transform: translateY(-2px);
 }
-/* Import Base Styles */
+
 @import url('style2.css');
 
-/* Contact Hero */
-/* Contact Hero */
 .contacthero {
   min-height: 50vh;
   display: flex;
@@ -514,8 +496,6 @@ footer a:hover {
   position: relative;
   overflow: hidden;
 }
-
-/* ✨ Hero Hover Effect */
 .contacthero h1,
 .contacthero p {
   opacity: 0;
@@ -664,7 +644,6 @@ footer a:hover {
   color: #0d3b66;
 }
 
-/* Social Icons */
 .social-icons {
   margin-top: 1.5rem;
   display: flex;
@@ -706,9 +685,7 @@ footer a:hover {
     grid-template-columns: 1fr;
   }
 }
-/* About Section - Centered Static */
-/* About Section - Centered Static */
-/* === About Section === */
+
 .about-section {
   position: relative;
   text-align: center;
@@ -823,7 +800,7 @@ footer a:hover {
   transition: transform 0.4s ease, color 0.4s ease;
 }
 
-/* === Button === */
+
 .about-btn {
   display: inline-block;
   padding: 0.8rem 1.5rem;
@@ -886,4 +863,5 @@ footer a:hover {
     display: none;
   }
 }
+
 
