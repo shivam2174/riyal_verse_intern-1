@@ -5,7 +5,6 @@
   box-sizing: border-box; 
   font-family: 'Roboto', sans-serif; 
 }
-
 body { 
   line-height: 1.6; 
   color: #222; 
@@ -51,7 +50,11 @@ nav .logo {
   letter-spacing: 1px; 
   transition: transform 0.3s; 
 }
-
+@media (min-width: 769px) {
+  nav .menu-toggle {
+    display: none;
+  }
+}
 nav ul { display: flex; list-style: none; gap: 1.5rem; }
 nav ul li a { 
   color: #fff; 
@@ -863,3 +866,68 @@ footer a:hover {
     display: none;
   }
 }
+
+/* === Mobile Responsiveness Enhancements === */
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+  }
+  nav .menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  nav ul{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #0d3b66;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  nav ul.active {
+    display: flex;
+  }
+  .workshop-slider {
+    width: 100vw;
+  }
+  .workshop-card {
+    flex: 0 0 100vw;
+  }
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  .hero p {
+    font-size: 0.95rem;
+  }
+  .about-section {
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+  .about-video {
+    display: none;
+  }
+  .about-image {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  nav .logo {
+    font-size: 1.2rem;
+  }
+  .cta-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  .hero p {
+    font-size: 0.85rem;
+  }
+}
+
+
